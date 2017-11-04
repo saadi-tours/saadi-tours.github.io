@@ -1,0 +1,1313 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"drop",
+				"dropdownOptions"
+			],
+			[
+				"download",
+				"downloadedTabs"
+			],
+			[
+				"advance",
+				"advanceWithPagination"
+			],
+			[
+				"neste",
+				"nestedPages"
+			],
+			[
+				"advan",
+				"advanceWithPagination"
+			],
+			[
+				"nes",
+				"nested"
+			],
+			[
+				"adva",
+				"advanceMultiple"
+			],
+			[
+				"nest",
+				"nestedPages"
+			],
+			[
+				"pagin",
+				"paginationAnchors"
+			],
+			[
+				"scrapeBa",
+				"scrapeBandGroupPage"
+			],
+			[
+				"cheerio",
+				"cheerioRequest"
+			],
+			[
+				"onRe",
+				"onRequestFn"
+			],
+			[
+				"onR",
+				"onRequestFn"
+			],
+			[
+				"on",
+				"onRequestFn"
+			],
+			[
+				"getTab",
+				"getTabsFromIds"
+			],
+			[
+				"norm",
+				"normalizedName"
+			],
+			[
+				"get",
+				"getArtistByName"
+			],
+			[
+				"findOne",
+				"findOneAndUpdate"
+			],
+			[
+				"agge",
+				"aggregateResults"
+			],
+			[
+				"sear",
+				"searchParams"
+			],
+			[
+				"artist",
+				"artistElement"
+			],
+			[
+				"to",
+				"toReturn"
+			],
+			[
+				"find",
+				"findInContainer"
+			],
+			[
+				"net",
+				"nextPageAnchor"
+			],
+			[
+				"next",
+				"nextPageAnchor"
+			],
+			[
+				"justify-content",
+				"justify-content-lg-center \tBootstrap 4 Class"
+			],
+			[
+				"brow",
+				"browseThings"
+			],
+			[
+				"show",
+				"showSpaceMenu"
+			],
+			[
+				"log",
+				"logger"
+			],
+			[
+				"Fetch",
+				"FETCH_MODE"
+			],
+			[
+				"rema",
+				"remainingRequests"
+			],
+			[
+				"Fet",
+				"FETCH_MODE"
+			],
+			[
+				"hier",
+				"hierarchyType"
+			],
+			[
+				"hie",
+				"hierarchy_type"
+			],
+			[
+				"heir",
+				"hierarchyType"
+			],
+			[
+				"custom",
+				"customFieldValues"
+			],
+			[
+				"map",
+				"mapStatus"
+			],
+			[
+				"assign",
+				"assigned_to_id"
+			],
+			[
+				"file",
+				"file_input"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "image-thumbnails.js",
+			"settings":
+			{
+				"buffer_size": 755,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "images-template.html",
+			"settings":
+			{
+				"buffer_size": 6618,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 455,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 14718,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "edit",
+		"selected_items":
+		[
+			[
+				"edit",
+				"Project: Edit Project"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"edi",
+				"Project: Edit Project"
+			],
+			[
+				"materi",
+				"Material Theme: Activate theme"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"newline",
+				"Newline To List: No quotes"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"newlin",
+				"Newline To List: No quotes"
+			],
+			[
+				"jsonre",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"materia conf",
+				"Material Theme: Configuration"
+			],
+			[
+				"materialac",
+				"Material Theme: Activate theme"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"ed",
+				"Project: Edit Project"
+			],
+			[
+				"js",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"editp",
+				"Project: Edit Project"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"scope",
+				"Toggle ScopeAlways"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"keybind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"editr",
+				"Project: Edit Project"
+			],
+			[
+				"",
+				"ANF: New File"
+			],
+			[
+				"newflie",
+				"ANF: New File"
+			],
+			[
+				"new fil",
+				"ANF: New File"
+			],
+			[
+				"NEW",
+				"ANF: New File"
+			],
+			[
+				"jsonrre",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"jsonr",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"omnishar",
+				"OmniSharpSublime: Hide Info Panel"
+			],
+			[
+				"new f",
+				"File: New View into File"
+			],
+			[
+				"csv",
+				"CSV: Evaluate cells"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"package cnotrol remov",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jay/Developer/git-repos/saadi",
+		"/Users/jay/Developer/git-repos/saadi/bower_components",
+		"/Users/jay/Developer/git-repos/saadi/css"
+	],
+	"file_history":
+	[
+		"/Users/jay/Developer/git-repos/saadi/images-template.html",
+		"/Users/jay/Developer/git-repos/jayvachon.github.io/index.html",
+		"/Users/jay/Developer/git-repos/saadi/.gitignore",
+		"/Users/jay/Developer/git-repos/saadi/saadi.sublime-project",
+		"/Users/jay/Developer/git-repos/v-accordion/README.md",
+		"/Users/jay/Developer/generic-modal/README.md",
+		"/Users/jay/Developer/generic-modal/index.html",
+		"/Users/jay/Developer/generic-modal/package.json",
+		"/Users/jay/Developer/generic-modal/src/genericModal/generic-modal.scss",
+		"/Users/jay/Developer/git-repos/test-generic-modal-dep/index.html",
+		"/Users/jay/Developer/generic-modal/demo/app.js",
+		"/Users/jay/Developer/git-repos/test-generic-modal-dep/app.js",
+		"/Users/jay/Developer/generic-modal/gulpfile.js",
+		"/Users/jay/Developer/generic-modal/demo/template-example.html",
+		"/Users/jay/Developer/generic-modal/src/genericModal/genericModal.js",
+		"/Users/jay/Developer/generic-modal/dist/generic-modal.js",
+		"/Users/jay/Developer/generic-modal/src/genericModal/modal.scss",
+		"/Users/jay/Developer/generic-modal/generic-modal.sublime-project",
+		"/Users/jay/Developer/git-repos/tablib/client/.angular-cli.json",
+		"/Users/jay/Developer/git-repos/tablib/tablib.sublime-project",
+		"/Users/jay/Developer/git-repos/tablib/client/src/index.html",
+		"/Users/jay/Developer/git-repos/instagram-search/config.js",
+		"/Users/jay/Developer/git-repos/instagram-search/.gitignore",
+		"/Users/jay/Developer/git-repos/instagram-search/tmp/data.json",
+		"/Users/jay/Developer/git-repos/instagram-search/package.json",
+		"/Users/jay/Developer/git-repos/instagram-search/index.js",
+		"/Users/jay/Developer/git-repos/instagram-search/instagram-search.sublime-project",
+		"/Users/jay/Developer/git-repos/indexer2/server.js",
+		"/Users/jay/Developer/git-repos/indexer2/scraper.js",
+		"/Users/jay/Developer/git-repos/indexer2/config.js",
+		"/Users/jay/Developer/ng-combobox/index.html",
+		"/Users/jay/Developer/ng-combobox/module.js",
+		"/Users/jay/Developer/ng-combobox/dropdown.html",
+		"/Users/jay/Developer/ng-combobox/bower_components/angular/angular.js",
+		"/Users/jay/Developer/ng-combobox/data.js",
+		"/Users/jay/Developer/ng-combobox/ng-combobox.sublime-project",
+		"/Users/jay/go/src/github.com/hakunashida/ipfs-transfer/ipfs-transfer.go",
+		"/Users/jay/go/src/github.com/hakunashida/ipfs-transfer/ipfs-transfer.sublime-project",
+		"/Users/jay/go/src/github.com/hakunashida/ipfs-transfer/.gitignore",
+		"/Users/jay/Developer/git-repos/indexer/scraper.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/notes.txt",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/package.json",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/start.sh",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/sources.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/services/scraper.js",
+		"/Users/jay/Developer/git-repos/indexer2/.gitignore",
+		"/Users/jay/Developer/git-repos/indexer2/sia-service.js",
+		"/Users/jay/Developer/git-repos/indexer2/wallet/wallet.log",
+		"/Users/jay/go/src/github.com/hakunashida/ipfs-transfer/gin-bin",
+		"/Users/jay/go/src/github.com/hakunashida/ipfs-transfer/hello.go",
+		"/Users/jay/Developer/git-repos/indexer2/package.json",
+		"/Users/jay/Developer/git-repos/indexer2/nodemon.json",
+		"/Users/jay/Developer/git-repos/rawr-rawr/.gitignore",
+		"/Users/jay/Developer/git-repos/rawr-rawr/rawr-rawr.sublime-project",
+		"/Users/jay/Developer/git-repos/indexer2/dist/server.js",
+		"/Users/jay/Developer/git-repos/indexer2/sia-service/sia-service.js",
+		"/Users/jay/Developer/git-repos/indexer2/.babelrc",
+		"/Users/jay/Developer/git-repos/indexer2/babelrc",
+		"/Users/jay/Developer/git-repos/indexer2/tabs/0lvwmt0hhsk53qy4dd8vo97j90.txt",
+		"/Users/jay/Developer/git-repos/indexer2/res.json",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/index.html",
+		"/Users/jay/Developer/git-repos/indexer2/node_modules/simplecrawler/package.json",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/routes/api.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/services/searcher.js",
+		"/Users/jay/Developer/git-repos/indexer/server.js",
+		"/Users/jay/Developer/git-repos/indexer/package.json",
+		"/Users/jay/Developer/git-repos/indexer/config.js",
+		"/Users/jay/Developer/git-repos/indexer/dev.log",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/services/tor-request-wrapper.js",
+		"/Users/jay/Developer/git-repos/indexer/sources.js",
+		"/Users/jay/Developer/git-repos/indexer/api.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/search/search.component.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/app.component.ts",
+		"/Users/jay/Developer/git-repos/indexer/models.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/indexer/server.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/services/client-requester.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/socketio.service.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/tabs/tabs.component.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/result.service.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/app.module.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/html-outlet.directive.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/models/Tab.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/tabs/tabs.component.scss",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/services/indexer.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/tabs/tabs.component.html",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/search/search.component.html",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/models/SearchTerm.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/models/Song.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/tab.model.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/models.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/services/rater.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/services/test-data-accessor.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/offline-toggle/offline-toggle.component.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/offline-toggle/offline-toggle.component.html",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/css/app.component.scss",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/app.component.html",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/offline-toggle/offline-toggle.component.scss",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/.angular-cli.json",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/models/SearchIndex.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/services/sourceUrlService.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/models/Artist.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/models/SourceUrl.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/result.service.spec.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/socketio/socketio.component.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/emmiter.service.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/html-outlet.directive.spec.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/searchResult.model.ts",
+		"/Users/jay/Downloads/1258113857@2017_6_10.json",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/search/search.component.scss",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/services/parser.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/node_modules/bootstrap/scss/_navbar.scss",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/node_modules/bootstrap/scss/_nav.scss",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/tabs.directive.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/tabs.directive.spec.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/styles.scss",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/node_modules/jquery/dist/jquery.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/sass/style.scss",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/css/app.component.css",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/sass/app.component.scss",
+		"/Users/jay/Library/Application Support/Sublime Text 3/Packages/User/Snippets/ts/log.sublime-snippet",
+		"/Users/jay/Library/Application Support/Sublime Text 3/Packages/LineJumper/Default (OSX).sublime-keymap",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/app/search/Model/search-result.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/typings.d.ts",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/src/tsconfig.spec.json",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/config.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/cheerioSandbox.js",
+		"/Users/jay/Developer/git-repos/rawr-rawr/client/server/tmp/downloads/searches.json"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Ds",
+			"images",
+			"accomadation",
+			"tracking",
+			"Rates",
+			"span",
+			" class=\"lead\"",
+			"lead",
+			"font",
+			"<div class=\"thumbnail\">",
+			"<a class=\"thumbnail\" href=\"#\">",
+			"col-lg-3",
+			"css",
+			"jquery",
+			"bootstrap",
+			"h4",
+			"bower_components",
+			"font"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "image-thumbnails.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "images-template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								6618
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								455,
+								455
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14414,
+								14414
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4415.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 62.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "saadi.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"images",
+				"images-template.html"
+			],
+			[
+				"packa",
+				"generic-modal/package.json"
+			],
+			[
+				"read",
+				"generic-modal/README.md"
+			],
+			[
+				"pack",
+				"generic-modal/package.json"
+			],
+			[
+				"readme",
+				"generic-modal/README.md"
+			],
+			[
+				"gulp",
+				"generic-modal/gulpfile.js"
+			],
+			[
+				"app",
+				"generic-modal/demo/app.js"
+			],
+			[
+				"index",
+				"generic-modal/index.html"
+			],
+			[
+				"inde",
+				"generic-modal/index.html"
+			],
+			[
+				"readm",
+				"v-accordion/README.md"
+			],
+			[
+				"genmoda",
+				"generic-modal/src/genericModal/genericModal.js"
+			],
+			[
+				"genmodjs",
+				"generic-modal/dist/generic-modal.js"
+			],
+			[
+				"mos",
+				"generic-modal/src/genericModal/modal.scss"
+			],
+			[
+				"gulpfil",
+				"generic-modal/gulpfile.js"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"dat",
+				"tmp/data.json"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"notes",
+				"rawr-rawr/notes.txt"
+			],
+			[
+				".",
+				"indexer2/.gitignore"
+			],
+			[
+				"gigi",
+				"indexer2/.gitignore"
+			],
+			[
+				"confi",
+				"indexer2/config.js"
+			],
+			[
+				"git",
+				"rawr-rawr/.gitignore"
+			],
+			[
+				"nomon",
+				"indexer2/nodemon.json"
+			],
+			[
+				"siaser",
+				"indexer2/sia-service.js"
+			],
+			[
+				"sia-ser",
+				"indexer2/sia-service/sia-service.js"
+			],
+			[
+				".bab",
+				"indexer2/.babelrc"
+			],
+			[
+				"bab",
+				"indexer2/babelrc"
+			],
+			[
+				"sources",
+				"rawr-rawr/client/server/sources.js"
+			],
+			[
+				"p",
+				"indexer2/package.json"
+			],
+			[
+				".gi",
+				"indexer2/.gitignore"
+			],
+			[
+				"res",
+				"indexer2/res.json"
+			],
+			[
+				"in",
+				"rawr-rawr/client/src/index.html"
+			],
+			[
+				"sc",
+				"rawr-rawr/client/server/services/scraper.js"
+			],
+			[
+				"scraper",
+				"rawr-rawr/client/server/services/scraper.js"
+			],
+			[
+				"sour",
+				"rawr-rawr/client/server/sources.js"
+			],
+			[
+				"res.js",
+				"indexer2/res.json"
+			],
+			[
+				"conf",
+				"indexer/config.js"
+			],
+			[
+				"torr",
+				"rawr-rawr/client/server/services/tor-request-wrapper.js"
+			],
+			[
+				"searcher",
+				"rawr-rawr/client/server/services/searcher.js"
+			],
+			[
+				"api",
+				"rawr-rawr/client/server/routes/api.js"
+			],
+			[
+				"serve",
+				"indexer/server.js"
+			],
+			[
+				"torreq",
+				"client/server/services/tor-request-wrapper.js"
+			],
+			[
+				"searher",
+				"client/server/services/searcher.js"
+			],
+			[
+				"module",
+				"client/src/app/app.module.ts"
+			],
+			[
+				"tabs",
+				"client/src/app/tabs/tabs.component.ts"
+			],
+			[
+				"tabscom",
+				"client/src/app/tabs/tabs.component.scss"
+			],
+			[
+				"tab",
+				"client/src/app/tabs/tabs.component.html"
+			],
+			[
+				"tabjs",
+				"client/server/models/Tab.js"
+			],
+			[
+				"model",
+				"client/src/app/tab.model.ts"
+			],
+			[
+				"song",
+				"client/server/models/Song.js"
+			],
+			[
+				"searchterm",
+				"client/server/models/SearchTerm.js"
+			],
+			[
+				"searcter",
+				"client/server/models/SearchTerm.js"
+			],
+			[
+				"models",
+				"client/server/models.js"
+			],
+			[
+				"rate",
+				"client/server/services/rater.js"
+			],
+			[
+				"serv",
+				"client/server.js"
+			],
+			[
+				"indexer",
+				"client/server/services/indexer.js"
+			],
+			[
+				"ap",
+				"client/server/routes/api.js"
+			],
+			[
+				"server",
+				"client/server.js"
+			],
+			[
+				"searchhtml",
+				"client/src/app/search/search.component.html"
+			],
+			[
+				"searc",
+				"client/src/app/search/search.component.ts"
+			],
+			[
+				"resulser",
+				"client/src/app/result.service.ts"
+			],
+			[
+				"seach",
+				"client/src/app/search/search.component.html"
+			],
+			[
+				"offl",
+				"client/src/app/offline-toggle/offline-toggle.component.scss"
+			],
+			[
+				"appscs",
+				"client/src/app/css/app.component.scss"
+			],
+			[
+				"offlin",
+				"client/src/app/offline-toggle/offline-toggle.component.html"
+			],
+			[
+				"cli",
+				"client/.angular-cli.json"
+			],
+			[
+				"html",
+				"client/src/index.html"
+			],
+			[
+				"searchts",
+				"client/src/app/search/search.component.ts"
+			],
+			[
+				"sear",
+				"client/src/app/search/search.component.html"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"tajs",
+				"client/server/models/Tab.js"
+			],
+			[
+				"mo",
+				"client/server/models.js"
+			],
+			[
+				"result",
+				"client/src/app/result.service.ts"
+			],
+			[
+				"searchjs",
+				"client/server/services/searcher.js"
+			],
+			[
+				"tab.mod",
+				"client/src/app/tab.model.ts"
+			],
+			[
+				"artist",
+				"client/server/models/Artist.js"
+			],
+			[
+				"mod",
+				"client/server/models.js"
+			],
+			[
+				"route",
+				"client/server/routes/api.js"
+			],
+			[
+				"searchin",
+				"client/server/models/SearchIndex.js"
+			],
+			[
+				"searchind",
+				"client/server/models/SearchIndex.js"
+			],
+			[
+				"ser",
+				"client/server.js"
+			],
+			[
+				"tab.js",
+				"client/server/models/Tab.js"
+			],
+			[
+				"song.",
+				"client/server/models/Song.js"
+			],
+			[
+				"sourcer",
+				"client/server/models/SourceUrl.js"
+			],
+			[
+				"appscss",
+				"client/src/app/css/app.component.scss"
+			],
+			[
+				"tabmod",
+				"client/src/app/tab.model.ts"
+			],
+			[
+				"ind",
+				"client/src/index.html"
+			],
+			[
+				"searhtml",
+				"client/src/app/search/search.component.html"
+			],
+			[
+				"htmlo",
+				"client/src/app/html-outlet.directive.ts"
+			],
+			[
+				"htmlou",
+				"client/src/app/html-outlet.directive.ts"
+			],
+			[
+				"sock",
+				"client/src/app/socketio.service.ts"
+			],
+			[
+				"sourc",
+				"client/server/sources.js"
+			],
+			[
+				"socket",
+				"client/src/app/socketio.service.ts"
+			],
+			[
+				"tabc",
+				"client/src/app/tabs/tabs.component.ts"
+			],
+			[
+				"appm",
+				"client/src/app/app.module.ts"
+			],
+			[
+				"modul",
+				"client/src/app/app.module.ts"
+			],
+			[
+				"appmod",
+				"client/src/app/app.module.ts"
+			],
+			[
+				"socketio",
+				"client/src/app/socketio.service.ts"
+			],
+			[
+				"apphtml",
+				"client/src/app/app.component.html"
+			],
+			[
+				"apptabs",
+				"client/src/app/tabs/tabs.component.ts"
+			],
+			[
+				"appcom",
+				"client/src/app/app.component.html"
+			],
+			[
+				"modu",
+				"client/src/app/app.module.ts"
+			],
+			[
+				"note",
+				"notes.txt"
+			],
+			[
+				"searche",
+				"client/src/app/search/search.component.ts"
+			],
+			[
+				"source",
+				"client/server/sources.js"
+			],
+			[
+				"tor",
+				"client/server/services/tor-request-wrapper.js"
+			],
+			[
+				"appc",
+				"client/src/app/app.component.html"
+			],
+			[
+				"serccom",
+				"client/src/app/search/search.component.ts"
+			],
+			[
+				"scss",
+				"client/src/app/css/app.component.scss"
+			],
+			[
+				"seatscss",
+				"client/src/app/search/search.component.scss"
+			],
+			[
+				"search.com",
+				"client/src/app/search/search.component.html"
+			],
+			[
+				"componenthtml",
+				"client/src/app/app.component.html"
+			],
+			[
+				"app.com",
+				"client/src/app/app.component.ts"
+			],
+			[
+				"seat",
+				"client/src/app/search/search.component.ts"
+			],
+			[
+				"searcjs",
+				"client/server/services/searcher.js"
+			],
+			[
+				"search",
+				"client/src/app/search/search.component.scss"
+			],
+			[
+				".scss",
+				"client/src/app/css/app.component.scss"
+			],
+			[
+				"tab.com.scs",
+				"client/src/app/tabs/tabs.component.scss"
+			],
+			[
+				"ta",
+				"client/src/app/tabs/tabs.component.ts"
+			],
+			[
+				"appcomscs",
+				"client/src/app/css/app.component.scss"
+			],
+			[
+				"app.mod",
+				"client/src/app/app.module.ts"
+			],
+			[
+				"tabs.d",
+				"client/src/app/tabs.directive.ts"
+			],
+			[
+				"searchc.",
+				"client/src/app/search/search.component.ts"
+			],
+			[
+				"appcts",
+				"client/src/app/app.component.ts"
+			],
+			[
+				"app.c",
+				"client/src/app/css/app.component.scss"
+			],
+			[
+				"inex",
+				"client/src/index.html"
+			],
+			[
+				"app.comp.sc",
+				"client/src/app/css/app.component.scss"
+			],
+			[
+				"an",
+				"client/.angular-cli.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

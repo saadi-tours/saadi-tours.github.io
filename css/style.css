@@ -1,0 +1,35 @@
+h1 {
+	font-size: 48px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.contact {
+	font-size: 24px;
+	padding-bottom: 6px;
+}
+
+.spacer {
+	padding: 12px;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail {
+    display:table;
+    border-spacing: 2px;
+    border-collapse: separate;
+    border-radius:10px; /* Demonstrational.. */
+}
+.thumbnail_wrapper {
+    display:table-cell;
+    vertical-align:middle;
+}
+.thumbnail_wrapper > img {
+    width:100%;
+}
