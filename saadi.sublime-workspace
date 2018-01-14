@@ -176,7 +176,7 @@
 			"file": "images-template.html",
 			"settings":
 			{
-				"buffer_size": 6618,
+				"buffer_size": 9018,
 				"line_ending": "Unix"
 			}
 		},
@@ -184,7 +184,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 455,
+				"buffer_size": 645,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -193,9 +193,18 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 14718,
+				"buffer_size": 21713,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/// <binding Clean='clean' />\n\"use strict\";\n\n// dependencies\nvar gulp    = require(\"gulp\"),\n    rimraf  = require(\"rimraf\"),\n    concat  = require(\"gulp-concat\"),\n    cssmin  = require(\"gulp-cssmin\"),\n    uglify  = require(\"gulp-uglify\"),\n    sass    = require('gulp-sass'),\n    async   = require('async');\n\n// paths\nvar webroot  = \"./wwwroot/\",\n    libDir   = webroot + \"lib/\",\n    cssDir   = webroot + \"css/\",\n    viewsDir = webroot + \"Views/\",\n    jsDir    = webroot + \"js/\",\n    sassDir  = webroot + \"sass/\";\n\nvar siteStyleOutput = cssDir + \"site.css\";\nvar mainStyles = [\n    libDir + \"bootstrap/dist/css/bootstrap.css\",\n    libDir + \"angular-bootstrap/ui-bootstrap-csp.min.css\",\n    libDir + \"kendo-ui/styles/kendo.fiori.min.css\",\n    libDir + \"kendo-ui/styles/kendo.common-fiori.min.css\",\n    libDir + \"v-accordion/dist/v-accordion.css\",\n    siteStyleOutput,\n];\nvar mainStyleMin = cssDir + \"main.min.css\";\n\nvar gridStyleOutput = cssDir + \"ui-grid.css\";\nvar procurementStyles = [\n    libDir + \"angular-ui-grid/ui-grid.css\",\n    gridStyleOutput,\n    libDir + \"angular-ui-select/dist/select.min.css\",\n    libDir + \"angular-bootstrap-toggle/dist/angular-bootstrap-toggle.min.css\",\n];\nvar procurementStyleMin = cssDir + \"procurement.min.css\";\n\nvar mainScripts = [\n    // libDir + \"angular/angular.min.js\",\n    // libDir + \"angular-route/angular-route.min.js\",/\n    // libDir + \"ng-lodash/build/ng-lodash.min.js\",\n    // libDir + \"angular-animate/angular-animate.min.js\",\n    libDir + \"v-accordion/just/v-accordion.js\",\n    // /lib/jquery/dist/jquery.min.js\n    libDir + \"kendo-ui/js/jszip.min.js\",\n    libDir + \"bootstrap/dist/js/bootstrap.min.js\",\n    libDir + \"knockout/dist/knockout.js\",\n    libDir + \"kendo-ui/js/kendo.all.min.js\",\n    libDir + \"kendo-ui/js/kendo.aspnetmvc.min.js\",\n];\nvar mainScriptMin = jsDir + \"main.min.js\";\n\nvar procurementScripts = [\n    libDir + \"jquery-validation/dist/jquery.validate.min.js\",\n    libDir + \"jquery-validation-unobtrusive/jquery-validation-unobtrusive.min.js\",\n    jsDir + \"Modal.js\",\n    jsDir + \"errorhandler.js\",\n    libDir + \"angular-ui-grid/ui-grid.min.js\",\n    libDir + \"angular-ui-select/dist/select.min.js\",\n    // libDir + \"angular-bootstrap-toggle/dist/angular-bootstrap-toggle.min.js\",\n    jsDir + \"angular/utils.module.js\",\n    jsDir + \"angular/processData.service.js\",\n    viewsDir + \"PurchaseRequests/**/*.js\",\n];\nvar procurementScriptMin = jsDir + \"procurement.min.js\";\n\nvar paths = {\n    webroot: \"./wwwroot/\"\n};\n\npaths.js = [\n    // paths.webroot + \"js/**/*.min.js\", \n    // paths.webroot + \"js/**/*.js\", \n    paths.webroot + \"Views/PurchaseRequests/*.js\",\n];\npaths.styling = {\n    site: {\n        src: paths.webroot + \"sass/site.scss\",\n        dest: paths.webroot + \"css/\",\n        cssSrc: paths.webroot + \"css/site.css\",\n        cssDest: paths.webroot + \"css/site.min.css\", \n    },\n    grid: {\n        src: paths.webroot + \"sass/ui-grid.scss\",\n        dest: paths.webroot + \"css/\",\n        cssSrc: paths.webroot + \"css/ui-grid.css\",\n        cssDest: paths.webroot + \"css/ui-grid.min.css\",\n    }\n};\npaths.styling.sources = [ \n    paths.styling.site.src, \n    paths.styling.grid.src,\n];\npaths.styling.cssSources = [\n    paths.styling.site.cssSrc,\n    paths.styling.grid.cssSrc,\n];\n// paths.minJs = paths.webroot + \"js/**/*.min.js\";\npaths.css = paths.webroot + \"css/**/*.css\";\npaths.minCss = paths.webroot + \"css/**/*.min.css\";\npaths.concatJsDest = paths.webroot + \"js/site.min.js\";\npaths.concatCssDest = paths.webroot + \"css/site.min.css\";\npaths.scss = paths.webroot + \"sass/*.scss\";\npaths.scssDest = paths.webroot + \"css/\";\n\ngulp.task(\"clean:js\", function (cb) {\n    rimraf(procurementScriptMin, function() {\n        rimraf(mainScriptMin, cb);\n    });\n});\n\ngulp.task(\"clean:css\", function (cb) {\n    async.waterfall([\n        function(callback) {\n            rimraf(procurementStyleMin, callback);\n        },\n        function(callback) {\n            rimraf(gridStyleOutput, callback);  \n        },\n        function(callback) {\n            rimraf(siteStyleOutput, callback);  \n        },\n        function(callback) {\n            rimraf(mainStyleMin, callback);\n        },\n    ], function() {\n        cb();\n    });\n});\n\ngulp.task(\"clean\", [\"clean:js\", \"clean:css\"]);\n\ngulp.task(\"min:js:main\", function () {\n    gulp.src(mainScripts)\n        .pipe(concat(mainScriptMin))\n        .pipe(uglify())\n        .pipe(gulp.dest(\".\"));\n});\n\ngulp.task(\"min:js:procurement\", function () {\n    gulp.src(procurementScripts)\n        .pipe(concat(procurementScriptMin))\n        .pipe(uglify())\n        .pipe(gulp.dest(\".\"));\n});\n\ngulp.task('compile:sass', function () {\n    gulp.src(sassDir + \"site.scss\")\n        .pipe(sass())\n        .pipe(gulp.dest(cssDir));\n    gulp.src(sassDir + \"ui-grid.scss\")\n        .pipe(sass())\n        .pipe(gulp.dest(cssDir));\n});\n\ngulp.task(\"min:css\", function () {\n    gulp.src(mainStyles)\n        .pipe(concat(mainStyleMin))\n        .pipe(cssmin())\n        .pipe(gulp.dest(\".\"));\n    gulp.src(procurementStyles)\n        .pipe(concat(procurementStyleMin))\n        .pipe(cssmin())\n        .pipe(gulp.dest(\".\"));\n});\n\ngulp.task('watch', function() {\n\n    // watch styling\n    gulp.watch(sassDir + \"*\", ['compile:sass', 'min:css']);\n\n    // watch scripts\n    gulp.watch(mainScripts, ['min:js:main']);\n    gulp.watch(procurementScripts, ['min:js:procurement']);\n});\n\ngulp.task(\"compile\", [\"compile:sass\", 'min:css']);\ngulp.task(\"min\", [\"min:js:main\", \"min:js:procurement\", \"min:css\"]);",
+			"settings":
+			{
+				"buffer_size": 5458,
+				"line_ending": "Unix",
+				"name": "/// <binding Clean='clean' />"
 			}
 		}
 	],
@@ -528,7 +537,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -600,7 +609,37 @@
 						"settings":
 						{
 							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "images-template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -610,12 +649,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "images-template.html",
+					"buffer": 2,
+					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6618,
+						"buffer_size": 645,
 						"regions":
 						{
 						},
@@ -623,39 +662,12 @@
 						[
 							[
 								0,
-								6618
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 455,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								455,
-								455
-							]
-						],
-						"settings":
-						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
 							"open_with_edit": true,
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 4,
@@ -665,13 +677,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -680,15 +692,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14718,
+						"buffer_size": 21713,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14414,
-								14414
+								4123,
+								4123
 							]
 						],
 						"settings":
@@ -700,7 +712,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4415.0,
+						"translation.y": 1631.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								848,
+								863
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/// <binding Clean='clean' />",
+							"default_dir": "/Users/jay/Developer/git-repos/saadi",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2319.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -711,7 +754,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -755,7 +798,7 @@
 	"project": "saadi.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
